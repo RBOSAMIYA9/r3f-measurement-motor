@@ -165,7 +165,7 @@ export function MeasurementApp() {
             makeDefault
             enabled={!hasActiveMeasurement} // Optional: disable orbit while drawing second point to avoid mistake
             minPolarAngle={0}
-            maxPolarAngle={Math.PI / 1.5}
+            maxPolarAngle={Math.PI}
           />
 
           {/* Model */}
